@@ -9,3 +9,4 @@ for char in fullname:
         fullname_formatted += char
         space_found = False
 #print the result without the leading spaces
+print(fullname_formatted)
