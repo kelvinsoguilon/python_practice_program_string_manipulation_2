@@ -7,3 +7,4 @@ for char in fullname:
     if char in upper_case:
         break
 #print not all character is in uppercase
+print("Not all character is in uppercase.")
