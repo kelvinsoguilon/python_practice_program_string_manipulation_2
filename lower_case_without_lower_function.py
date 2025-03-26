@@ -3,4 +3,9 @@ def lowercase(text):
 #store text in variable
     formatted_string = ""
 #check if the characters are in uppercase
+    for char in text:
+        if 'A' <= char <= 'Z':
+            formatted_string = chr(ord(char) + 32)
+        else:
+            formatted_string += char
 #print output
