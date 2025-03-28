@@ -10,3 +10,5 @@ def swapcase(text):
         else:
             formatted_string += chr(ord(char) - 32)
 #print output
+    return(formatted_string)
+print(swapcase("KElvIn SOgUilON"))
