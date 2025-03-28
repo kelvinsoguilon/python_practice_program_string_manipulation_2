@@ -7,8 +7,10 @@ def swapcase(text):
 #check if uppercase or lowercase and reverse it
         if 'A' <= char <= 'Z':
             formatted_string += chr(ord(char) + 32)
-        else:
+        elif 'a' <= char <= 'z':
             formatted_string += chr(ord(char) - 32)
+        else:
+            formatted_string += char
 #print output
     return(formatted_string)
 print(swapcase("KElvIn SOgUilON"))
