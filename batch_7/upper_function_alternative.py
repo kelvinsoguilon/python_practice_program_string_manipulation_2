@@ -9,3 +9,4 @@ for char in text:
     else:
         formatted_text += char
 #print result
+print(formatted_text)
