@@ -7,3 +7,8 @@ def ljust(text, width, char_fill = " "):
 #fill characters to the end of the string
     return text + (char_fill * padding_char)
 #print result
+text = "Kelvin Soguilonnnn"
+width = 18
+
+result = ljust(text, width)
+print(f"Result: '{result}'")
