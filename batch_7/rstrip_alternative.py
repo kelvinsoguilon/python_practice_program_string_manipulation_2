@@ -5,4 +5,8 @@ formatted_text = ""
 #identify space characters
 space_found = True
 #iterate through every character and check if there is space
+for char in reversed(text):
+    if char != " " or not space_found:
+        formatted_text += char
+        space_found = False
 #print result
