@@ -5,4 +5,5 @@ def endswith(text, suffix):
 #extract end part of string with same length as suffix
     end_part = text[- suffix_length:]
 #compare extracted part and suffix
+    return end_part == suffix
 #print result
