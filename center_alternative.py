@@ -1,5 +1,5 @@
 #define center function
-def alternative_center(text, width, fillchar = " ")
+def alternative_center(text, width, fillchar = " "):
 #get string length
     text_length = len(text)
 #get the padding needed
@@ -10,3 +10,7 @@ def alternative_center(text, width, fillchar = " ")
 #return characters in center string format
     return (fillchar * left_pad) + text + (fillchar * right_pad)
 #print result
+text = "Kelvin Soguilon"
+width = 31
+
+print(alternative_center(text, width))
