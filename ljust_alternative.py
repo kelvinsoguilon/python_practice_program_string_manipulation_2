@@ -5,4 +5,5 @@ def ljust(text, width, char_fill = " "):
 #get the padding characters needed
     padding_char = max(0, width - text_length)
 #fill characters to the end of the string
+    return text + (char_fill * padding_char)
 #print result
