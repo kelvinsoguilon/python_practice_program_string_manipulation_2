@@ -7,3 +7,5 @@ def title(text):
     for word in words:
         format_title += word[0].upper() + word[1:].lower() + " "
 #print output on title casing
+    return format_title.strip()
+print(title("kelVin SOGuilon"))
