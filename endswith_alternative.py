@@ -7,3 +7,9 @@ def endswith(text, suffix):
 #compare extracted part and suffix
     return end_part == suffix
 #print result
+text = "Kelvin Soguilon"
+suffix = "lon"
+
+print(f"Text: '{text}'")
+print(f"Suffix: '{suffix}'")
+print("Ends with suffix: ", endswith(text, suffix))
