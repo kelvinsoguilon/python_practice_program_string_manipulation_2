@@ -5,4 +5,5 @@ def rjust(text, width, fillchar = " "):
 #get the count of padding characters needed
     padding_needed = max(0, width - text_length)
 #return string in rjust format
+    return (fillchar * padding_needed) + text
 #print output
