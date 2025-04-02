@@ -9,3 +9,7 @@ def index_alternaative(text, substring):
 #return i value
             return i
 #print result
+text = "for you, for me, for everyone"
+substring = "me"
+
+print(index_alternaative(text, substring))
