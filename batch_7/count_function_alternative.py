@@ -6,9 +6,13 @@ def count_alternative(text, substring):
     text_length = len(text)
     substring_length = len(substring)
 #iterate through text and check for substring occurences
-    for i in range(text_length, substring_length + 1):
+    for i in range(text_length - substring_length + 1):
         if text[i:i + substring_length] == substring:
             count += 1
 #return count
     return count
 #print result
+text = "for you, for me, for everyone "
+substring = "for"
+
+print(count_alternative(text, substring))
