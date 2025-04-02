@@ -7,3 +7,7 @@ def rjust(text, width, fillchar = " "):
 #return string in rjust format
     return (fillchar * padding_needed) + text
 #print output
+text = "Kelvin Soguilon"
+width = 25
+
+print(rjust(text, width))
