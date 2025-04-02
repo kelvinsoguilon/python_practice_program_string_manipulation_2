@@ -1,5 +1,5 @@
 #define index function
-def index_alternaative(text, substring):
+def index_alternative(text, substring):
 #get text length and substring length
     text_length = len(text)
     substring_length = len(substring)
@@ -12,4 +12,4 @@ def index_alternaative(text, substring):
 text = "for you, for me, for everyone"
 substring = "me"
 
-print(index_alternaative(text, substring))
+print(index_alternative(text, substring))
