@@ -7,4 +7,5 @@ def rindex_alternative(text, substring):
     for i in reversed(range(text_length - substring_length + 1)):
         if text[i:i + substring_length] == substring:
 #return value to i
+            return i
 #print output 
