@@ -5,3 +5,7 @@ def startswith_alternative(text, prefix):
 #compare the first word to the splitted part
     return first_word == prefix
 #print result
+text = "Kelvin Soguilon"
+prefix = "Kelvin"
+
+print(startswith_alternative(text, prefix))
